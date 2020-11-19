@@ -25,17 +25,16 @@ namespace intro
             InitializeComponent();
         }
 
-       
+
         private void Buttonzero_Click(object sender, EventArgs e)
         {
 
-               
+
             CalDisplay.Text = ""; //To remove the the previous numbers come before
             USERINPUT += "0"; //to add and keep traking the prosses.
-            CalDisplay.Text = CalDisplay.Text + USERINPUT; //to add on the num display on cal..
+            CalDisplay.Text = CalDisplay.Text + USERINPUT;  //add to the display text the user input
         }
-
-        private void Buttonone_Click(object sender, EventArgs e)
+            private void Buttonone_Click(object sender, EventArgs e)
         {
             CalDisplay.Text = ""; //To remove the the previous numbers come before
             USERINPUT += "1";
